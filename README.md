@@ -1,4 +1,7 @@
-# The full report — what we did, in two parts
+# DVWA "Impossible" command injection — a bounded finding
+
+*A line break slips past the input validation and reaches the shell. It still
+cannot be exploited, and this is the write-up of proving exactly that.*
 
 This is the complete story of the experiment, written for someone who is just
 starting out in security. No prior knowledge is assumed. Every command and every
@@ -15,7 +18,7 @@ The report has two parts:
 - **Part Two** — how we turned all of it into a single script that does the whole
   thing by itself
 
-#part one
+# PART ONE — doing it by hand
 
 ## Step 1 — use the easy setting to look around
 
